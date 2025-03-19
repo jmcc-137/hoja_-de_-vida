@@ -75,16 +75,23 @@ h4 {
     margin-top: 2rem;
     background-color: blue;
     padding: 3.3rem;
-    width: 15vw;
+    width: 20vw;
     border: #1F253D;
     border-radius: 80px;
     text-align: 0;
     overflow: hidden; /* Asegura que el contenido no se desborde */
     word-wrap: break-word; 
     margin-bottom: 20px;
+    transition-duration: 0.3s;
   
 }
+.datosPersona:hover  {
 
+    transform: scale(1.1);
+    transition: ease-in;
+    transition-duration: 0.3s;
+    
+}
 
 
 .redesSociales {
@@ -92,13 +99,22 @@ h4 {
     margin-top: 2rem;
     background-color: blue;
     padding: 3.3rem;
-    width: 15vw;
+    width: 20vw;
     border: #1F253D;
     border-radius: 80px;
     text-align: 0;
     overflow: hidden; /* Asegura que el contenido no se desborde */
     word-wrap: break-word; 
     margin-bottom: 20px;
+    transition-duration: 0.3s;
+  
+}
+.redesSociales:hover  {
+
+    transform: scale(1.1);
+    transition: ease-in;
+    transition-duration: 0.3s;
+    
 }
 .container {
     margin-top: 50rem;
@@ -110,17 +126,27 @@ h4 {
     overflow: hidden;
 }
 
-.containerDerecho {
+.containerB {
   
     display: inline-block;
     position: relative;
     right: -50vw;
-    left: 10vw;
+    left: -10vw;
     top: -15vw;
     width: auto;
 
 }
-.containerIzquierdo {
+.containerC {
+  
+    display: inline-block;
+    position: relative;
+    right: 0vw;
+    left: 0vw;
+    top: 0vw;
+    width: auto;
+
+}
+.containerA {
     width: 48%; /* Ancho de los contenedores */
     display: inline-block; /* Organiza los contenedores en línea */
     vertical-align: top; /* Alinea los contenedores en la parte superior */
@@ -129,24 +155,23 @@ h4 {
     
 
 }
-.containerOtros {
+.containerPerfil {
     padding: 1.5rem;
     margin-top: 2rem;
     background-color: blue;
     padding: 3.3rem;
-    width: 15vw;
+    width: 35vw;
     border: #1F253D;
     border-radius: 80px;
     text-align: 0;
     transition-duration: 0.3s;
     overflow:hidden;
-    overflow: hidden; /* Asegura que el contenido no se desborde */
     word-wrap: break-word; 
     margin-bottom: 20px;
    
 }
 
-.containerOtros:hover {
+.containerPerfil:hover {
 
     transform: scale(1.1);
     transition: ease-in;
