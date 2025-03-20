@@ -30,4 +30,4 @@ Sigue estos pasos para clonar y visualizar el proyecto en tu máquina local:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/jmcc-137/Hoja-de-vida.git
+   git clone https://github.com/jmcc-137/hoja_-de_-vida.git
