@@ -79,7 +79,7 @@ h4 {
     border: #1F253D;
     border-radius: 80px;
     text-align: 0;
-    overflow: hidden; /* Asegura que el contenido no se desborde */
+    overflow: hidden; 
     word-wrap: break-word; 
     margin-bottom: 20px;
     transition-duration: 0.3s;
@@ -103,7 +103,7 @@ h4 {
     border: #1F253D;
     border-radius: 80px;
     text-align: 0;
-    overflow: hidden; /* Asegura que el contenido no se desborde */
+    overflow: hidden; 
     word-wrap: break-word; 
     margin-bottom: 20px;
     transition-duration: 0.3s;
@@ -117,37 +117,37 @@ h4 {
     
 }
 .redesSociales ul {
-    list-style: none; /* Elimina los puntos de la lista */
+    list-style: none; 
     padding: 0;
 }
 
 .redesSociales li {
-    margin-bottom: 10px; /* Espacio entre elementos */
+    margin-bottom: 10px; 
 }
 
 .redesSociales .icono {
     
-    display: inline-block; /* Alinea el ícono en línea */
-    vertical-align: middle; /* Alinea verticalmente con el texto */
-    margin-right: 10px; /* Espacio entre el ícono y el texto */
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-right: 10px; 
 }
 
 .redesSociales a {
-    color: white; /* Color del enlace */
-    text-decoration: none; /* Elimina el subrayado */
-    display: inline-block; /* Alinea el enlace en línea */
-    vertical-align: middle; /* Alinea verticalmente con el ícono */
+    color: white; 
+    text-decoration: none; 
+    display: inline-block; 
+    vertical-align: middle; 
 }
 
 .redesSociales a:hover {
-    text-decoration: underline; /* Subraya el enlace al pasar el mouse */
+    text-decoration: underline; 
 }
 .container {
     margin-top: 40rem;
     background-color: #1F253D;
     box-shadow: 0px 0px 10px rgb(0, 0, 0.5);
-    min-width: 800px; /* Ancho mínimo para evitar que se encoja demasiado */
-    max-width: 1200px; /* Ancho máximo para pantallas grandes */
+    min-width: 800px; 
+    max-width: 1200px; 
     margin: 0 auto;
     height: 80vw;
     overflow: hidden;
@@ -183,12 +183,21 @@ h4 {
     width: auto;
 
 }
-.containerD {
+ .containerD {
   
     display: inline-block;
     position: relative;
     left: 25vw;
     top: -50vw;
+    width: auto;
+
+} 
+.containerE {
+  
+    display: inline-block;
+    position: relative;
+    left: -20vw;
+    top: -6vw;
     width: auto;
 
 }
@@ -263,32 +272,65 @@ h4 {
     
 }
 .tecnologias ul {
-    list-style: none; /* Elimina los puntos de la lista */
+    list-style: none; 
     padding: 0;
 }
 
 .tecnologias li {
-    margin-bottom: 10px; /* Espacio entre elementos */
+    margin-bottom: 10px; 
 }
 
 .tecnologias .icono {
     
-    display: inline-block; /* Alinea el ícono en línea */
-    vertical-align: middle; /* Alinea verticalmente con el texto */
-    margin-right: 10px; /* Espacio entre el ícono y el texto */
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-right: 10px; 
 }
 
 .rating {
     display: inline-block;
-    margin-left: 10px; /* Espacio entre el texto y las estrellas */
+    margin-left: 10px; 
 }
 
 .star {
-    font-size: 24px; /* Tamaño de las estrellas */
-    color: #ffcc00; /* Color de las estrellas llenas */
+    font-size: 24px; 
+    color: #ffcc00; 
 }
 
 .star.empty {
-    color: #ccc; /* Color de las estrellas vacías */
+    color: #ccc; 
 }
 
+.lenguaje{
+    padding: 1.5rem;
+    margin-top: 2rem;
+    background-color: blue;
+    padding: 3.3rem;
+    width: 12vw;
+    border: #1F253D;
+    border-radius: 80px;
+    text-align: 0;
+    transition-duration: 0.3s;
+    overflow:hidden;
+    word-wrap: break-word; 
+    margin-bottom: 20px;
+   
+}
+
+.lenguaje:hover {
+
+    transform: scale(1.1);
+    transition: ease-in;
+    transition-duration: 0.3s;
+    
+}
+.lenguaje a {
+    color: white; 
+    text-decoration: none; 
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+.lenguaje a:hover {
+    text-decoration: underline; 
+}
